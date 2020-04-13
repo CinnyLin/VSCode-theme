@@ -1,7 +1,8 @@
 # Cinny's VSCode Pink Theme 
 
 My customized light theme on Visual Studio Code, using pink as my base and adding some other dreamy colors.
-(a sample can be found in the Screenshot in the repository.)
+
+(A sample can be found in the Screenshot in the repository. I still can't figure out how to upload an image from my local file to README.md, I copied pasted the absolute path for my image and still didn't link. Please teach me if you can!)
 
 I am a big supporter of customizing themes because we spend so much time on our editors everyday and I think it is important to customize it the way you want it.
 
