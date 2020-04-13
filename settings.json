@@ -1,0 +1,48 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[Default Light+]": {
+            "comments": "#F59BD4",
+            "functions": "#07b897",
+            "keywords": "#892eff",
+            "numbers": "#DD028D",
+            "strings": "#027f83",
+            "types": "#44b0ee",
+            "variables": "#DD028D",
+            "textMateRules": [
+                {
+                    "name": "main code",
+                    "scope": "source.python",
+                    "settings": {
+                        "foreground": "#DD028D"
+                    }
+                },
+                {
+                    "scope": "support.function.builtin.python",
+                    "settings": {
+                        "foreground": "#44b0ee"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.language.special.self.python",
+                        "support.variable.magic.python",
+                    ],
+                    "settings": {
+                        "foreground": "#DD028D"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.logical.python",
+                        "keyword.operator.comparison.python",
+                        "keyword.operator.arithmetic.python",
+                        "keyword.operator.assignment.python",
+                    ],
+                    "settings": {
+                        "foreground": "#DD028D"
+                    }
+                },
+            ]
+        }
+    },
+}
