@@ -6,7 +6,7 @@ I am a big supporter of customizing themes because we spend so much time on our 
 
 ## Installation
 It's not an extension or anything, I just made changes on top of the Default Light+ theme. 
-To use it, Just copy paste the .json file on your User Settings. 
+To use it, just copy paste the settings.json file on your User Settings. 
 You can also make your own changes. 
 
 
