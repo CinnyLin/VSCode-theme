@@ -11,7 +11,10 @@
             "textMateRules": [
                 {
                     "name": "main code",
-                    "scope": "source.python",
+                    "scope": ["source.python",
+                              "souce.cpp",
+                              "source.r",
+                    ],
                     "settings": {
                         "foreground": "#DD028D"
                     }
