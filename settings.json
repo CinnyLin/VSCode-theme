@@ -11,13 +11,28 @@
       "textMateRules": [
         {
           "name": "main code",
-          "scope": ["source.python", "souce.cpp", "source.r"],
+          "scope": [
+            "source.python",
+            "souce.cpp",
+            "source.r",
+            "source.java",
+            "source.txt",
+            "source.md",
+            "source.gcode",
+            "source.html",
+            "markup.italic.textit.latex",
+            "meta.function.textit.latex",
+            "text.tex.latex"
+          ],
           "settings": {
             "foreground": "#DD028D"
           }
         },
         {
-          "scope": "support.function.builtin.python",
+          "scope": [
+            "support.function.builtin.python",
+            "meta.function-call.generic.python"
+          ],
           "settings": {
             "foreground": "#44b0ee"
           }
@@ -36,10 +51,12 @@
             "keyword.operator.logical.python",
             "keyword.operator.comparison.python",
             "keyword.operator.arithmetic.python",
-            "keyword.operator.assignment.python"
+            "keyword.operator.assignment.python",
+            "keyword.operator.python",
+            "constant.language.python"
           ],
           "settings": {
-            "foreground": "#DD028D"
+            "foreground": "#892eff"
           }
         }
       ]
