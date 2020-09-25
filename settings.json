@@ -43,7 +43,8 @@
           "scope": [
             "string.quoted.single.python",
             "string.quoted.single.cpp",
-            "string.quoted.single.html"
+            "string.quoted.single.html",
+            "string.quoted.double.html"
           ],
           "settings": {
             "foreground": "#027f83"
