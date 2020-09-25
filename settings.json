@@ -22,7 +22,8 @@
             "source.html",
             "markup.italic.textit.latex",
             "meta.function.textit.latex",
-            "text.tex.latex"
+            "text.tex.latex",
+            "text.html.derivative"
           ],
           "settings": {
             "foreground": "#DD028D"
@@ -31,10 +32,21 @@
         {
           "scope": [
             "support.function.builtin.python",
-            "meta.function-call.generic.python"
+            "meta.function-call.generic.python",
+            "entity.other.attribute-name.html"
           ],
           "settings": {
             "foreground": "#44b0ee"
+          }
+        },
+        {
+          "scope": [
+            "string.quoted.single.python",
+            "string.quoted.single.cpp",
+            "string.quoted.single.html"
+          ],
+          "settings": {
+            "foreground": "#027f83"
           }
         },
         {
@@ -53,7 +65,12 @@
             "keyword.operator.arithmetic.python",
             "keyword.operator.assignment.python",
             "keyword.operator.python",
-            "constant.language.python"
+            "constant.language.python",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.end.html",
+            "meta.tag.metadata.doctype.html",
+            "meta.tag.structure.html.start.html",
+            "entity.name.tag.html"
           ],
           "settings": {
             "foreground": "#892eff"
