@@ -79,5 +79,84 @@
         }
       ]
     }
-  }
+  },
+    "[Default Dark+]": {
+      "comments": "#c0318c",
+      "functions": "#01dfb6",
+      "keywords": "#af7cf1",
+      "numbers": "#F59BD4",
+      "strings": "#00b5bb",
+      "types": "#44b0ee",
+      "variables": "#F59BD4",
+      "textMateRules": [
+        {
+          "name": "main code",
+          "scope": [
+            "source.python",
+            "source.cpp",
+            "source.r",
+            "source.java",
+            "source.txt",
+            "source.md",
+            "source.gcode",
+            "source.html",
+            "markup.italic.textit.latex",
+            "meta.function.textit.latex",
+            "text.tex.latex",
+            "text.html.derivative"
+          ],
+          "settings": {
+            "foreground": "#F59BD4"
+          }
+        },
+        {
+          "scope": [
+            "support.function.builtin.python",
+            "meta.function-call.generic.python",
+            "entity.other.attribute-name.html"
+          ],
+          "settings": {
+            "foreground": "#3eb5fa"
+          }
+        },
+        {
+          "scope": [
+            "string.quoted.single.python",
+            "string.quoted.single.cpp",
+            "string.quoted.single.html",
+            "string.quoted.double.html"
+          ],
+          "settings": {
+            "foreground": "#00b5bb"
+          }
+        },
+        {
+          "scope": [
+            "variable.language.special.self.python",
+            "support.variable.magic.python"
+          ],
+          "settings": {
+            "foreground": "#F59BD4"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.logical.python",
+            "keyword.operator.comparison.python",
+            "keyword.operator.arithmetic.python",
+            "keyword.operator.assignment.python",
+            "keyword.operator.python",
+            "constant.language.python",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.end.html",
+            "meta.tag.metadata.doctype.html",
+            "meta.tag.structure.html.start.html",
+            "entity.name.tag.html"
+          ],
+          "settings": {
+            "foreground": "#af7cf1"
+          }
+        }
+      ]
+    }
 }
