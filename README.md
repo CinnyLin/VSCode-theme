@@ -6,7 +6,7 @@ Pink for Visual Studio Code, supporting both light and dark themes!
 
 ![sample-light](https://github.com/CinnyLin/VSCode-theme/blob/master/pink-theme-sample-light.jpg)
 
-![sample-dark](https://github.com/CinnyLin/VSCode-theme/blob/master/pink-theme-sample-light.jpg)
+![sample-dark](https://github.com/CinnyLin/VSCode-theme/blob/master/pink-theme-sample-dark.jpg)
 
 ## Installation
 
